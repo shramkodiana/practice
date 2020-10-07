@@ -1,0 +1,16 @@
+#Блок введення даних
+user_name = input("Enter your name:")
+user_surname = input("Enter your surname:")
+phone_number = input("Enter your phone number:")
+street = input("Enter your street name:")
+building_number = input("Enter your building number:")
+flat_number = input("Enter the number of your flat:")
+city = input("Enter your city:")
+index = input("Enter your index:")
+country = input("Enter the name of your country:")
+#Блок виведення даних
+print(user_name, user_surname)
+print(phone_number)
+print("Str.", street, building_number, flat_number, city)
+print(index)
+print(country)
